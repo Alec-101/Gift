@@ -1,0 +1,54 @@
+#list {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FCFCFC;
+}
+#Happybd {
+    padding: 0px;
+    margin: 0px;
+}
+.basics {
+    flex-basis: 100%;
+    padding: 0px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #FCFCFC;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+p {
+    padding: 0%;
+    margin: 0%;
+}
+.txt {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+#something {
+    margin-bottom: 100px;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
